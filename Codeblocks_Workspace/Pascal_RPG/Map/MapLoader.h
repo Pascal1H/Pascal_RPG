@@ -12,7 +12,7 @@ public:
         MapLoader();
         virtual ~MapLoader();
 
-        bool loadMap(std::string fileName, int sizeX, int sizeY, SpriteFactory& _sf, Map& map);
+        static bool loadMap(std::string fileName, int sizeX, int sizeY, SpriteFactory& _sf, Map& map);
 
 protected:
 

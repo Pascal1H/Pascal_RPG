@@ -20,7 +20,6 @@ int CollisionDetection::moveUp(Map& map, std::pair<int, int> currentPos, int dis
     int nPosX = currentPos.first;
     int nPosY = currentPos.second + distance;
 
-
     if(map.getCollisionAt(nPosX / 32, nPosY / 32) == 0 && map.getCollisionAt((nPosX + 31) / 32, nPosY / 32) == 0) {
         return Unit::movementSpeed;
     }

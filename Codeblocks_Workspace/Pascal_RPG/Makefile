@@ -5,9 +5,9 @@ LIBS = -lsfml-window -lsfml-system -lsfml-graphics
 INCLUDE = 
 BIN=build
 
-VPATH=${SRC_PATH}:Character:Map:Collision:Graphics
+VPATH=${SRC_PATH}:Character:Map:Collision:Graphics:Units
 
-SRCS = main.cpp Entity.cpp Map.cpp MapLoader.cpp CollisionMarkerOnMap.cpp SpriteFactory.cpp Player.cpp CollisionDetection.cpp
+SRCS = main.cpp Entity.cpp Map.cpp MapLoader.cpp CollisionMarkerOnMap.cpp SpriteFactory.cpp Player.cpp Unit.cpp CollisionDetection.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 Debug: program
