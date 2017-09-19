@@ -9,3 +9,5 @@ Unit::~Unit()
 {
     //dtor
 }
+
+float Unit::movementSpeed = 30;

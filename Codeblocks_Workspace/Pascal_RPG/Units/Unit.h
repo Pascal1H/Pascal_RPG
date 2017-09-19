@@ -8,6 +8,8 @@ class Unit
         Unit();
         virtual ~Unit();
 
+	static float movementSpeed;
+
     protected:
 
     private:
